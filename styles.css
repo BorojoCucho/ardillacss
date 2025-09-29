@@ -1,0 +1,46 @@
+/* styles.css */
+body {
+  background-color: lightgreen;
+}
+/* HEADER */
+header {
+  background-color: #064420; /* verde oscuro */
+  color: white;
+  padding: 10px;             /* menos alto */
+  text-align: center;
+  border-bottom: 3px solid #013220; /* verde aún más oscuro como borde */
+}
+
+/* LISTA DEL MENÚ */
+header ul {
+  list-style: none;
+  padding: 0;
+  margin: 5px 0 0 0; /* un poco de espacio arriba */
+  display: flex;
+  justify-content: center;
+  gap: 15px;         /* separación entre enlaces */
+}
+
+/* ENLACES */
+header a {
+  color: #d4edda;         /* verde claro para contraste */
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+header a:hover {
+  color: #a8e6a3;         /* se ilumina en verde claro */
+}
+
+/* IMAGEN DE ARDILLA */
+.imagen-top {
+  display: flex;
+  justify-content: flex-end; /* manda la imagen a la derecha */
+  padding: 10px 20px;
+}
+
+.ardilla {
+  width: 250px;   /* ajusta el tamaño */
+  height: auto;
+}
