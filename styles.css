@@ -45,6 +45,17 @@ header a:hover {
   height: auto;
 }
 /* Estilos de la galería */
+.imagen-top {
+  display: flex;
+  justify-content: flex-end; /* manda la imagen a la derecha */
+  padding: 10px 20px;
+}
+
+.ardilla {
+  width: 250px;   /* ajusta el tamaño */
+  height: auto;
+}
+/* Estilos de la galería */
 /* Estilos de la galería */
 .galeria {
   display: grid;
