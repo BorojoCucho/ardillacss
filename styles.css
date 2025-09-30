@@ -44,3 +44,33 @@ header a:hover {
   width: 250px;   /* ajusta el tamaño */
   height: auto;
 }
+/* Estilos de la galería */
+/* Estilos de la galería */
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  align-items: stretch; /* 🔥 Asegura que todos los items tengan misma altura */
+}
+
+.galeria .item {
+  background: #f5f5f5;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column; /* Imagen arriba, texto abajo */
+  justify-content: space-between; /* Ajusta el texto al final sin espacio vacío */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.galeria img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.galeria p {
+  margin: 10px;
+  font-size: 14px;
+  color: #333;
+}
