@@ -94,3 +94,32 @@ header a:hover {
   font-family: "Times New Roman", Times, serif;
   line-height: 1.6;
 }
+
+.invitacion {
+  text-align: center;
+  margin: 30px auto;
+  width: 80%;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.invitacion p {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.invitacion a {
+  color: darkgreen;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.invitacion a:hover {
+  text-decoration: underline;
+}
+
+.gif-ardilla {
+  width: 100%;
+  max-width: 500px; /* ajusta el tamaño máximo */
+  display: block;
+  margin: 0 auto;
+}
